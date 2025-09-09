@@ -14,10 +14,8 @@ export default function Home() {
         logoSrc="/images/logo.svg"
         logoWidth={50}
         logoHeight={50}
-        leftButtonText="Get Started"
-        rightButtonText=""
-        onLeftButtonClick={() => {}}
-        onRightButtonClick={() => {}}
+        buttonText="Get Started"
+        onButtonClick={() => {}}
       />
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <SplitHero
