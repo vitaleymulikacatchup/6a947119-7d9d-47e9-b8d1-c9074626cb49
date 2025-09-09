@@ -13,8 +13,10 @@ export default function Home() {
       <NavbarStyleMinimal
         logoSrc="/images/logo.svg"
         logoAlt="NovaFlow Logo"
-        buttonText="Get Started"
-        onButtonClick={() => {}}
+        leftButtonText="Get Started"
+        rightButtonText=""
+        onLeftButtonClick={() => {}}
+        onRightButtonClick={() => {}}
       />
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <SplitHero
