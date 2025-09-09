@@ -14,7 +14,7 @@ export default function Home() {
         logoSrc="/images/logo.svg"
         logoAlt="NovaFlow Logo"
         buttonText="Get Started"
-        onButtonClick={() => {} }
+        onButtonClick={() => {}}
       />
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <SplitHero
