@@ -12,7 +12,8 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" }}>
       <NavbarStyleMinimal
         logoSrc="/images/logo.svg"
-        logoAlt="NovaFlow Logo"
+        logoWidth={50}
+        logoHeight={50}
         leftButtonText="Get Started"
         rightButtonText=""
         onLeftButtonClick={() => {}}
